@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px; /* Añadido para que se ajuste al tamaño del form */
+  background-color: #f7f7f7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 80%;
+  height: 400px;
+  justify-content: space-between;
+}
+
+form .Mensajes {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  width: 100%;
+}
+
+form .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+}
+
+form input {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #454869;
+  cursor: pointer;
+  color: white;
+}
+form button:hover {
+  background-color: #5e6c8d;
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-y: auto;
+}
+
+li {
+  padding: 6px;
+  margin: 5px 0;
+  border-bottom: 1px solid #ddd;
+  text-align: justify;
+}
+
+span {
+  display: block;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
